@@ -13,7 +13,8 @@ func main() {
 		fmt.Println("You are a minor.")
 	}
 
-	if score := 75; score >= 50 {
+	var score int = 75
+	if score >= 50 {
 		fmt.Println("Pass")
 	} else {
 		fmt.Println("Fail")
